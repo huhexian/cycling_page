@@ -16,8 +16,8 @@ const getBasePath = () => {
 
 const data: ISiteMetadataResult = {
   siteTitle: 'Cycling Page',
-  siteUrl: 'https://guoqi.dev',
-  logo: 'https://assets.guoqi.dev/images/avatar.jpg',
+  siteUrl: 'https://cycling.yinji.org',
+  logo: 'https://img.yinji.org/site_icon.png',
   description: 'my cycling page',
   navLinks: [
     {
@@ -26,7 +26,11 @@ const data: ISiteMetadataResult = {
     },
     {
       name: 'Blog',
-      url: 'https://blog.guoqi.dev',
+      url: 'https://yinji.org',
+    },
+    {
+      name: 'Thanks',
+      url: 'https://github.com/yihong0618/running_page/',
     },
   ],
 };
